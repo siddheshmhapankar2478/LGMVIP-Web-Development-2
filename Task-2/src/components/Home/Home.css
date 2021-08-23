@@ -1,0 +1,48 @@
+.background{
+    /* background-blend-mode: darken;How does it render */
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-size: cover;
+    width:auto;
+}
+.background1{
+    margin-top: 80px;
+    background-image: url(../images/background1.jpg);
+    height: 670px;
+}
+.home-heading{
+    padding-top: 50px;
+    padding-left: 8%;
+    font-size: 2em;
+    text-align: left;
+    color: white;
+}
+.home-para{
+    padding-top: 20px;
+    padding-left: 8%;
+    text-align: left;
+    color: white;
+}
+.colorchange{
+    animation: colorlist 1s infinite;
+    font-size: 1.3em;
+}
+@keyframes colorlist{
+    0%{color: red;}
+    25%{color: lightskyblue;}
+    75%{color: lightgreen;}
+    100%{color: yellow;}
+}
+@media only screen and (max-width: 768px){
+    .home-heading{
+        font-size: 2em;
+        padding-left: 30px;
+    }
+    .home-para{
+        padding-left: 30px;
+        padding-right: 70px;
+    }
+    .background1{ 
+        height: 649px;
+    }
+}

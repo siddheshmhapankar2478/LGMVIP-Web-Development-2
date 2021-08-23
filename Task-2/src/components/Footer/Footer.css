@@ -1,0 +1,53 @@
+.office-addr-card{
+    height: 210px;
+    width: 250px;
+    box-shadow: none;
+}
+.followus-section{
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    height: 230px;
+}
+.h4-main{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 10px;
+    color: white;
+}
+.center-para{
+    color: white;
+    text-align: center;
+    padding: 0px 40px;
+}
+.contact-para a{
+    color: white;
+    text-decoration: none;
+}
+.contact-para a:hover{
+    color: royalblue;
+}
+.icons a{
+    padding: 0px 10px;
+    color: white;
+}
+.icons{
+    margin:15px;
+    margin-top: 10px;
+}
+.icons i:hover{
+    color: royalblue;
+}
+@media only screen and (max-width: 768px){
+    .followus-section{
+        height: 650px;
+    }
+}
